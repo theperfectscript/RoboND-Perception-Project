@@ -60,6 +60,6 @@ Nothing special on the prediciton part as well.
 
 As a side note, it took me a while to realise that the leaf size of the voxel grid downsampling had to be decreased down from what was sufficient in the exercises to make the prediction stable.
 
-Also, my code will mistakenly try to categorize any objects that are appearing close to the table but are not actual objects placed there (for e.g. robots arms on certain occasions). One way would be to run the detection on on feasible clusters based on centroid position/volume/colors.
+Also, my code will mistakenly try to categorize any objects that are appearing close to the table but are not actual objects placed there (for e.g. robots arms on certain occasions). One way would be to run the detection on feasible clusters based on centroid position/volume/colors.
 
 Finally, I would have loved to submit the other challenges as well. Unfortunately i am running very tight schedules at work and do not want to risk falling behind with the next lessons.
